@@ -8,12 +8,14 @@ const NavBar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img className="w-[124px] h-[32px]" src={logo} alt="hoo bank" />
+      <a href="/">
+        <img className="w-[124px] h-[32px]" src={logo} alt="hoo bank" />
+      </a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((link, index) => (
           <li
             key={link.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
+            className={`font-poppins hover:text-secondary font-normal cursor-pointer text-[16px] text-white ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } `}
           >
