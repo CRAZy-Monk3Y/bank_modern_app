@@ -14,6 +14,10 @@ This is a beautifully designed responsive web application for a bank, built usin
 
 - **Interactive UI:** The user interface is intuitive and interactive, making it easy for users to navigate and access various functionalities.
 
+## Live Site
+
+- Site is hosted on Netlify - [Link](https://responsive-bank-app.netlify.app/)
+
 ## Installation
 
 To run this application locally, follow these steps:
