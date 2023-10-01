@@ -12,6 +12,7 @@ import {
   Stats,
   Testimonials,
 } from "./components";
+import { Fade } from "react-reveal";
 
 const App = () => {
   return (
@@ -30,13 +31,41 @@ const App = () => {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats />
-          <Business />
-          <Billing />
-          <CardDeal />
-          <Testimonials />
-          <Clients />
-          <CTA />
+          <Fade bottom duration={2000}>
+            <section>
+              <Stats />
+            </section>
+          </Fade>
+          <Fade bottom duration={2000}>
+            <section>
+              <Business />
+            </section>
+          </Fade>
+          <Fade bottom duration={2000}>
+            <section>
+              <Billing />
+            </section>
+          </Fade>
+          <Fade bottom duration={2000}>
+            <section>
+              <CardDeal />
+            </section>
+          </Fade>
+          <Fade bottom duration={2000}>
+            <section>
+              <Testimonials />
+            </section>
+          </Fade>
+          <Fade bottom duration={2000}>
+            <section>
+              <Clients />
+            </section>
+          </Fade>
+          <Fade bottom duration={2000}>
+            <section>
+              <CTA />
+            </section>
+          </Fade>
           <Footer />
         </div>
       </div>
