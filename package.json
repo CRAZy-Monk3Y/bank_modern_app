@@ -10,9 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-reveal": "^1.2.2"
+    "react-awesome-reveal": "^4.3.1",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

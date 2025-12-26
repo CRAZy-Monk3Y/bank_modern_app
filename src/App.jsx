@@ -12,7 +12,7 @@ import {
   Stats,
   Testimonials,
 } from "./components";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const App = () => {
   return (
@@ -31,37 +31,37 @@ const App = () => {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={2000} triggerOnce>
             <section>
               <Stats />
             </section>
           </Fade>
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={2000} triggerOnce>
             <section>
               <Business />
             </section>
           </Fade>
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={2000} triggerOnce>
             <section>
               <Billing />
             </section>
           </Fade>
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={2000} triggerOnce>
             <section>
               <CardDeal />
             </section>
           </Fade>
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={2000} triggerOnce>
             <section>
               <Testimonials />
             </section>
           </Fade>
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={2000} triggerOnce>
             <section>
               <Clients />
             </section>
           </Fade>
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={2000} triggerOnce>
             <section>
               <CTA />
             </section>
